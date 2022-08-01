@@ -1,0 +1,13 @@
+- name: Install
+
+  hosts: all
+
+  tasks:
+
+    - name: Install unzip
+
+      yum:
+
+        name: unzip
+
+        state: latest
